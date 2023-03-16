@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./survey.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id ="title">freeCodeCamp Survey Form</h1>
+    <p id="description">thank you for taking the time to help us improve the plat form </p>
+    <form id="survey-form">
+        <div id ="firstDiv">
+        <label id="name-label"> Name
+            <input type="text" id="name" required placeholder="enter your name"></label></label>
+        <label id="email-label"> Email
+            <input type="text" id="email" required placeholder="enter your email"></label></label>
+        <label id="number-label"> Age(optional)
+            <input type="number" id="number" min="20" max="60" placeholder="enter your age"></label></label>  
+       
+            <label>Which option best describes your current role?</label>
+            <select id="dropdown">
+                <option disabled selected>select current role</option>
+                <option value="Students">Students</option>
+                <option value="Full time job">Full time job</option>
+                <option value="Full time lenear">Full time lenear</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+            <div id ="secDiv">
+              <label> would you recommend freeCodeCamp to a frind</label>
+              <label><input checked="checked"  type="radio" name="radioBut" class="inline"/>Definitely</label>
+              <label><input type="radio" name="radioBut" class="inline"/>Maybe</label>
+              <label><input type="radio" name="radioBut" class="inline"/>Not sure</label>
+            </div>
+              <label>What would you like to improved? (check all that apply)</label>
+             <label for="FRont-End"> <input id="FRont-End" checked="checked" type="checkbox" name="terms" value="FRont-End project" class="inline" />FRont-End project</label> 
+             <label for="Back-End"><input id="Back-End" type="checkbox" name="terms" value="Back-End project" class="inline" />Back-End project </label> 
+             <label for="challenges"><input id="challenges" type="checkbox" name="terms" value="challenges" class="inline" />challenges</label> 
+             <label for="Videos"><input id="Videos" type="checkbox" name="terms" value="Videos" class="inline" />Videos</label> 
+             <label for="Wiki"><input id="Wiki" type="checkbox" name="terms" value="Wiki" class="inline" />Wiki </label> 
+             <div id="thirdDiv">
+             <label>Any comments or suggestions?</label>
+                <textarea cols="30" rows="8" placeholder="Enter your comment here" name="comment"></textarea>
+            </div>
+                <input id="submit" type="submit" value="Submit">
+            
+    </form>
+</body>
+</html>

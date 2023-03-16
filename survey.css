@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family:'Rubik', sans-serif;
+    background-image:url(https://shots.codepen.io/leen624/pen/mdLjbbz-512.jpg?version=1664907060) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} 
+
+h1 ,p ,label,submit{
+   color: whitesmoke;; 
+}
+input,label ,#secDiv{
+    display: block;
+    margin-top:10px;
+
+}
+p{
+    font-size: 22px;
+    font-family:italic;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+form{
+    background-color:  #343459;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 5px;
+    background: rgba(0,0,0,0.5);
+    
+}
+#firstDiv{
+    display: flex;
+    flex-direction: column;
+    margin-top:0px;
+}
+
+#firstDiv label input{
+    width: 600px; ;
+    height: 35px;
+    border-radius: 5px;
+}
+#dropdown{
+    margin-top: 10px;
+    height: 35px;
+}
+.inline{
+    display: inline-block;
+    vertical-align: baseline;  
+}
+
+#thirdDiv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+textarea{
+    margin-top: 10px;
+}
+#submit{
+    background-color: rgb(93, 199, 93);
+    height: 40px;
+}
