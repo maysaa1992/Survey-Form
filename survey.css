@@ -20,14 +20,16 @@ input,label ,#secDiv{
 }
 p{
     font-size: 22px;
-    font-family:italic;
+    font-style: italic;
     margin-top: 0;
     padding-top: 0;
+    
 }
 
 form{
     background-color:  #343459;
     display: flex;
+    width: 40%;
     flex-direction: column;
     padding: 50px;
     border-radius: 5px;
@@ -40,14 +42,16 @@ form{
     margin-top:0px;
 }
 
-#firstDiv label input{
-    width: 600px; ;
+#firstDiv label input {
+    width: 95%; ;
     height: 35px;
     border-radius: 5px;
 }
 #dropdown{
     margin-top: 10px;
+    width: 96%; 
     height: 35px;
+    border-radius: 5px;
 }
 .inline{
     display: inline-block;
@@ -61,8 +65,10 @@ form{
 }
 textarea{
     margin-top: 10px;
+    height: 100px;
 }
 #submit{
     background-color: rgb(93, 199, 93);
-    height: 40px;
+    height: 50px;
+    margin-top: 30px;
 }
